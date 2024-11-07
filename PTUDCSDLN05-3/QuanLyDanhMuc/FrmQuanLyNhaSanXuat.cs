@@ -25,7 +25,6 @@ namespace PTUDCSDLN05_3.QuanLyDanhMuc
 
         private void add_manufacturer_Click(object sender, EventArgs e)
         {
-            //lần này thì phải thêm cả txt_manufacturer_id và txt_manufacturer_name
             Database.Execute("INSERT NhaSanXuat VALUES" +
                                               "(" + txt_manufacturer_id.Text + ", N'" + txt_manufacturer_name.Text);
             loadDgvManufacturer();

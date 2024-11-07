@@ -18,7 +18,7 @@ namespace PTUDCSDLN05_3
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //tôi muốn chạy FrmQuanLyKhachHang
-            Application.Run(new QuanLyDanhMuc.FrmQuanLyNhaSanXuat());
+            Application.Run(new QuanLyThongTinSanPham.FrmQuanLyManHinh());
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace PTUDCSDLN05_3
@@ -23,6 +24,7 @@ namespace PTUDCSDLN05_3
 
         public static void Execute(string sql)
         {
+            Console.WriteLine(sql);
             connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = new SqlCommand(sql, connection);

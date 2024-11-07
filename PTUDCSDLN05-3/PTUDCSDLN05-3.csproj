@@ -73,6 +73,30 @@
     <Compile Include="QuanLyDanhMuc\FrmQuanLyNhaSanXuat.Designer.cs">
       <DependentUpon>FrmQuanLyNhaSanXuat.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLyThongTinSanPham\FrmQuanLyLaptop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyThongTinSanPham\FrmQuanLyLaptop.Designer.cs">
+      <DependentUpon>FrmQuanLyLaptop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyThongTinSanPham\FrmQuanLyManHinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyThongTinSanPham\FrmQuanLyManHinh.Designer.cs">
+      <DependentUpon>FrmQuanLyManHinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyThongTinSanPham\FrmQuanLyRAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyThongTinSanPham\FrmQuanLyRAM.Designer.cs">
+      <DependentUpon>FrmQuanLyRAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyThongTinSanPham\FrmQuanLyStorage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyThongTinSanPham\FrmQuanLyStorage.Designer.cs">
+      <DependentUpon>FrmQuanLyStorage.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +118,9 @@
     <EmbeddedResource Include="QuanLyDanhMuc\FrmQuanLyNhaSanXuat.resx">
       <DependentUpon>FrmQuanLyNhaSanXuat.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyThongTinSanPham\FrmQuanLyManHinh.resx">
+      <DependentUpon>FrmQuanLyManHinh.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,7 +137,6 @@
   <ItemGroup>
     <Folder Include="QuanLyHeThong\" />
     <Folder Include="QuanLyNhapVaBanHang\" />
-    <Folder Include="QuanLyThongTinSanPham\" />
     <Folder Include="ThongKeBaoCao\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
